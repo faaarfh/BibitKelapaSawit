@@ -40,15 +40,15 @@ class DatabaseSeeder extends Seeder
         // ]);
 
   // === BUAT PEMBELI ===
-        User::factory(10)->create([
+        User::factory(3)->create([
             'role' =>Role::PEMBELI
         ]);
 
         // === BUAT DATA BIBIT ===
-        Bibit::factory(20)->create();
+        Bibit::factory(5)->create();
 
         // === BUAT PESANAN + DETAIL + PENGIRIMAN ===
-        Pesanan::factory(30)
+        Pesanan::factory(5)
             ->create()
             ->each(function ($pesanan) {
 
