@@ -163,7 +163,7 @@ $role = auth()->user()->role;
       <th scope="col">Tanggal Pesan</th>
       <th scope="col">Metode Pembayaran</th>
 
-                        @if ($role === Role::ADMIN)
+                        @if ($role === Role::PEMBELI)
       <th scope="col">Bukti Pembelian</th>
 
                         @endif
@@ -204,7 +204,7 @@ $role = auth()->user()->role;
     <td>{{ $item->metode_pembayaran }}</td>
 
     {{-- NOTA hanya jika status DITERIMA --}}
-    @if ($role === Role::ADMIN && $item->status === StatusPesanan::DITERIMA)
+    @if ($role === Role::PEMBELI && $item->status === StatusPesanan::DITERIMA)
         <td class="text-end">
             <a href="{{ route('pesanan.bukti', $item->id) }}"
                class="btn btn-danger">
@@ -212,7 +212,7 @@ $role = auth()->user()->role;
             </a>
         </td>
     @else
-        @if($role === Role::ADMIN)
+        @if($role === Role::PEMBELI)
             <td></td>
         @endif
     @endif
