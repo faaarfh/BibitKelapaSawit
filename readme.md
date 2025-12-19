@@ -6,17 +6,17 @@ Fitur Sistem
 Fitur-fitur yang tersedia dalam sistem ini meliputi:
 1. Login dan Registrasi Pengguna
 Memungkinkan admin dan pembeli untuk masuk ke sistem sesuai dengan hak akses masing-masing.
-2. Dashboard Admin
+4. Dashboard Admin
 Menampilkan ringkasan informasi seperti total transaksi dan pendapatan, serta menu pengelolaan sistem.
-3. Manajemen Data Bibit
+5. Manajemen Data Bibit
 Admin dapat menambah, mengubah, dan menghapus data bibit kelapa sawit yang meliputi jenis bibit, harga, stok, dan deskripsi.
-4. Manajemen Pengguna
+6. Manajemen Pengguna
 Admin dapat mengelola data pengguna yang terdaftar dalam sistem.
-5. Pemesanan Bibit Secara Online
+7. Pemesanan Bibit Secara Online
 Pembeli dapat melihat katalog bibit dan melakukan pemesanan melalui sistem.
-6. Manajemen Pesanan
+8. Manajemen Pesanan
 Admin dapat memproses pesanan, mengubah status pesanan, dan mengonfirmasi pengiriman.
-7. Laporan Penjualan
+9. Laporan Penjualan
 Sistem menyediakan laporan penjualan harian, dan bulanan yang dapat dicetak.
 
 Tujuan Sistem
